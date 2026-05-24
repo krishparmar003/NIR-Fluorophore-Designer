@@ -1,0 +1,41 @@
+{
+  "backend": "LightGBM",
+  "targets": {
+    "absorption_nm": {
+      "n_train": 3749,
+      "n_test": 938,
+      "n_features": 1164,
+      "MAE": 14.2579,
+      "R2": 0.9172,
+      "unit": "nm",
+      "log_transformed": false
+    },
+    "emission_nm": {
+      "n_train": 3812,
+      "n_test": 954,
+      "n_features": 1164,
+      "MAE": 14.9924,
+      "R2": 0.788,
+      "unit": "nm",
+      "log_transformed": false
+    },
+    "plqy": {
+      "n_train": 2862,
+      "n_test": 716,
+      "n_features": 1164,
+      "MAE": 0.1025,
+      "R2": 0.7252,
+      "unit": "",
+      "log_transformed": false
+    },
+    "epsilon": {
+      "n_train": 1505,
+      "n_test": 377,
+      "n_features": 1164,
+      "MAE": 0.1431,
+      "R2": 0.8011,
+      "unit": "log10(M-1cm-1)",
+      "log_transformed": true
+    }
+  }
+}

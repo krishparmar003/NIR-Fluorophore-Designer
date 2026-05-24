@@ -1,0 +1,30 @@
+NIR fluorophore dataset (emission > 600 nm)
+==================================================
+Total rows (molecule-solvent pairs): 4766
+Unique molecules: 2521
+
+Non-null counts per property:
+   absorption_nm: 4687
+     emission_nm: 4766
+            plqy: 3578
+         epsilon: 1882
+
+Emission (nm) stats:
+  min=601  max=1045  mean=662
+
+Top scaffolds:
+            BODIPY: 1756
+    Triphenylamine: 430
+           Cyanine: 378
+              PAHs: 360
+               5p6: 327
+          Coumarin: 264
+         Acridines: 241
+               5n6: 212
+               6n6: 201
+               6p6: 141
+         Carbazole: 128
+       SquaricAcid: 118
+         Porphyrin: 96
+     Naphthalimide: 65
+              Benz: 26
